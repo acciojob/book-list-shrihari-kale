@@ -1,1 +1,40 @@
 /*  your css code here. If applicable */
+*{
+	margin:0;
+	padding:0;
+}
+.heading{
+	text-align:center;
+	color:gray;
+	font-weight:1;
+}
+span{
+	color:#1471fc;
+}
+.form-group{
+	display:flex;
+	flex-direction:column;
+	color:gray;
+}
+input{
+	height:1.6rem;
+	border-radius:3px;
+}
+.btn{
+	padding:8px;
+	background:#0d6dfc;
+	border:none;
+	color:white;
+	border-radius:3px;
+}
+.table{
+	border-bottom:solid 1px;
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: ;
+    background: white;
+}
+th, td {
+            padding: 4px;
+            text-align: start;
+        }
